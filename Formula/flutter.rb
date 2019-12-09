@@ -13,6 +13,11 @@ class Flutter < Formula
     version "dev"
   end
 
+  head do
+    url "https://github.com/flutter/flutter.git", :branch => "master"
+    version "master"
+  end
+
   bottle :unneeded
 
   def install
